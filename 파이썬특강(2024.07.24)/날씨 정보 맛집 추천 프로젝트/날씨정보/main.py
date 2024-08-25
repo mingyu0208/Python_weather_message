@@ -5,7 +5,7 @@ import random
 
 vilage_weather_url = 'http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?'
 
-service_key = "40oswQz5MVL0by5JgCsA3tPCBmPFBUgYgdDsbcA6iThEntlrokTQCtGQhjCHt3sY8v2iJdQBTVgHFbX4TnCnrg%3D%3D"
+service_key = "{}"
 base_date = datetime.datetime.today().strftime("%Y%m%d")
 base_time = "0800"
 nx = "61"
