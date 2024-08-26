@@ -3,13 +3,13 @@ import json
 
 
 dust_url = 'http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?'
-service_key = 'SN38WJfkXEtaRNKyTUhjQKX6yzFvh1nFWx3X9OO0L%2BUmrF2PwVQwFs3QGorCfoafuyIe2L8U66I8k4TPK9d4%2FA%3D%3D'
+service_key = '{}'
 
 
 
 payload = "serviceKey=" + service_key + '&' + \
         "returnType=json" + '&' + \
-        "stationName=성건동" + '&' + \
+        "stationName={지역명}" + '&' + \
         "dataTerm=DAILY" + '&' + \
         "ver=1.0"
 
